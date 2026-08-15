@@ -25,7 +25,7 @@ export default function Header({ onOpenQuoteModal }) {
               <Film size={22} />
             </div>
             <div>
-              <span>PUSHPA PRAKASH</span>
+              <span>SANDHYA RAJ MEDIA</span>
               <span style={{ color: 'var(--color-primary)', display: 'block', fontSize: '0.75rem', fontWeight: '600', letterSpacing: '0.1em' }}>
                 FILMS & STUDIO
               </span>
