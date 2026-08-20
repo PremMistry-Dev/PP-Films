@@ -43,10 +43,6 @@ export default function Header({ onOpenQuoteModal }) {
           </ul>
 
           <div className="nav-actions">
-            {/* <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn btn-secondary btn-sm">
-              <Phone size={15} />
-              <span>{BUSINESS_INFO.phone}</span> */}
-            </a>
             <a
               href={`https://wa.me/${BUSINESS_INFO.phoneRaw.replace('+', '')}?text=Hi%20Pushpa%20Prakash%20Films!%20I%20would%20like%20to%20inquire%20about%20video%20production%20/%20podcast%20studio.`}
               target="_blank"
