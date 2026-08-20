@@ -25,7 +25,7 @@ export default function Header({ onOpenQuoteModal }) {
               <Film size={22} />
             </div>
             <div>
-              <span>SANDHYA RAJ MEDIA</span>
+              <span>PUSHPA PRAKASH MEDIA</span>
               <span style={{ color: 'var(--color-primary)', display: 'block', fontSize: '0.75rem', fontWeight: '600', letterSpacing: '0.1em' }}>
                 FILMS & STUDIO
               </span>
@@ -43,10 +43,6 @@ export default function Header({ onOpenQuoteModal }) {
           </ul>
 
           <div className="nav-actions">
-            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn btn-secondary btn-sm">
-              <Phone size={15} />
-              <span>{BUSINESS_INFO.phone}</span>
-            </a>
             <a
               href={`https://wa.me/${BUSINESS_INFO.phoneRaw.replace('+', '')}?text=Hi%20Pushpa%20Prakash%20Films!%20I%20would%20like%20to%20inquire%20about%20video%20production%20/%20podcast%20studio.`}
               target="_blank"
