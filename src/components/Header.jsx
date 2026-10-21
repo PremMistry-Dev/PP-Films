@@ -14,9 +14,7 @@ export default function Header({ onOpenQuoteModal }) {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   const closeMobile = () => setMobileOpen(false);
-
   return (
     <>
       <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>

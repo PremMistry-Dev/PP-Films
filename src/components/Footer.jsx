@@ -3,7 +3,6 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { InstagramIcon, FacebookIcon } from './SocialIcons';
 import { BUSINESS_INFO } from '../data/content';
 import logoImg from '../assets/logo.jpeg';
-
 export default function Footer() {
   return (
     <footer className="footer">
