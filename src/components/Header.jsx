@@ -22,7 +22,6 @@ export default function Header({ onOpenQuoteModal }) {
           <a href="#home" className="logo" aria-label="Pushpa Prakash Films">
             <img src={logoImg} alt="Pushpa Prakash Films" className="logo-img" />
           </a>
-
           <ul className="nav-links">
             <li><a href="#home" className="nav-link">Home</a></li>
             <li><a href="#services" className="nav-link">Services</a></li>

@@ -38,7 +38,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-
           <div>
             <h4 className="footer-title">Quick Links</h4>
             <ul className="footer-links">
