@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, MessageSquare, Menu, X, Film, Sparkles } from 'lucide-react';
+import { Phone, MessageSquare, Menu, X } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/content';
+import logoImg from '../assets/logo.jpeg';
 
 export default function Header({ onOpenQuoteModal }) {
   const [scrolled, setScrolled] = useState(false);
@@ -20,16 +21,8 @@ export default function Header({ onOpenQuoteModal }) {
     <>
       <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-container">
-          <a href="#home" className="logo">
-            <div className="logo-icon">
-              <Film size={22} />
-            </div>
-            <div>
-              <span>PUSHPA PRAKASH MEDIA</span>
-              <span style={{ color: 'var(--color-primary)', display: 'block', fontSize: '0.75rem', fontWeight: '600', letterSpacing: '0.1em' }}>
-                FILMS & STUDIO
-              </span>
-            </div>
+          <a href="#home" className="logo" aria-label="Pushpa Prakash Films">
+            <img src={logoImg} alt="Pushpa Prakash Films" className="logo-img" />
           </a>
 
           <ul className="nav-links">

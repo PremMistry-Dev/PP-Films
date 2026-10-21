@@ -1,7 +1,8 @@
 import React from 'react';
-import { Film, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { InstagramIcon, FacebookIcon } from './SocialIcons';
 import { BUSINESS_INFO } from '../data/content';
+import logoImg from '../assets/logo.jpeg';
 
 export default function Footer() {
   return (
@@ -10,8 +11,9 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <div className="footer-logo">
-              <Film size={24} color="var(--color-primary)" />
-              <span style={{ color: '#fff' }}>PUSHPA PRAKASH FILMS</span>
+              <a href="#home" aria-label="Pushpa Prakash Films">
+                <img src={logoImg} alt="Pushpa Prakash Films" className="footer-logo-img" />
+              </a>
             </div>
             <p className="footer-desc">
               High-impact video production agency and 4K Podcast Studio located in Bhayandar East, Mira Bhayandar, Maharashtra. Run by a young creative team dedicated to bringing your brand vision to life.
