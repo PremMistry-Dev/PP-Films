@@ -56,6 +56,10 @@ export default function Header({ onOpenQuoteModal }) {
             <X size={24} />
           </button>
 
+          <div className="mobile-nav-brand">
+            <img src={logoImg} alt="Pushpa Prakash Films" className="mobile-nav-logo" />
+          </div>
+
           <ul className="mobile-nav-links">
             <li><a href="#home" onClick={closeMobile} className="mobile-nav-link">Home</a></li>
             <li><a href="#services" onClick={closeMobile} className="mobile-nav-link">Services</a></li>
