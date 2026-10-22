@@ -292,22 +292,22 @@ img {
 }
 
 .logo-img {
-  height: 78px;
+  height: 84px;
   width: auto;
   max-width: 260px;
   object-fit: contain;
   display: block;
-  border-radius: var(--radius-sm);
+  mix-blend-mode: screen;
   transition: height 0.3s ease, transform 0.25s ease, filter 0.25s ease;
 }
 
 .navbar.scrolled .logo-img {
-  height: 60px;
+  height: 64px;
 }
 
 .logo:hover .logo-img {
-  transform: scale(1.03);
-  filter: drop-shadow(0 0 12px rgba(255, 94, 0, 0.45));
+  transform: scale(1.04);
+  filter: drop-shadow(0 0 14px rgba(255, 94, 0, 0.5));
 }
 
 .nav-links {
@@ -1179,12 +1179,12 @@ img {
 }
 
 .footer-logo-img {
-  height: 100px;
+  height: 110px;
   width: auto;
   max-width: 280px;
   object-fit: contain;
   display: block;
-  border-radius: var(--radius-sm);
+  mix-blend-mode: screen;
   transition: transform 0.25s ease, filter 0.25s ease;
 }
 
@@ -1200,10 +1200,10 @@ img {
 }
 
 .mobile-nav-logo {
-  height: 85px;
+  height: 95px;
   width: auto;
   object-fit: contain;
-  border-radius: var(--radius-sm);
+  mix-blend-mode: screen;
 }
 
 .footer-desc {
